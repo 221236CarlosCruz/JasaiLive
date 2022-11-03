@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de boletos</title>
+    <link rel="stylesheet" href="./asset/css/estilosPay.css">
+    <script src="./asset/js/mainPay.js"></script>
+</head>
+<body>
+
+    <section class="form-register">
+
+        <form method="get" name="frm_registro">
+
+        <h4>Compra de Boletos</h4>
+
+
+        <h3>Evento a asistir</h3>
+
+        <select class="controls">
+            <option>Kevin Roldán</option>
+            <option>Ha Ash</option>
+            <option>Moenia</option>
+        </select>
+
+        <h3>Cantidad de boletos</h3>
+        <input class="controls" type="number" name="cantidad" id="nombres" placeholder="Ingrese cantidad">   
+        
+        <h3>Datos Personales</h3>
+        <input class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese su Nombre">   
+        <input class="controls" type="text" name="apellidoP" id="apellidos" placeholder="Ingrese su apellido paterno">
+        <input class="controls" type="text" name="apellidoM" id="apellidos" placeholder="Ingrese su apellido materno">   
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo">   
+        
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+        
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su numero de tarjeta" maxlength="16">
+        
+        <p>CLICK EN COMPRAR</p>
+
+        <a onclick="guardar_datos()" href="./impresionBoleto.html"><input class="botons" type="button" value="COMPRAR" ></a>
+
+        </form>
+
+    </section>
+
+</body>
+</html>

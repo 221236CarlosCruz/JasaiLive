@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./asset/css/estilosEnVivo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>VIRTUAL</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">JASAI LIVE</h2>
+			<nav>
+				<a href="./index.html" class="activo">Inicio</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Gloria Trevi
+					 </h3>
+				<p class="descripcion">
+					GLORIA TREVI un ícono de la música Latina, reconocida no solo por la gran cantidad de éxitos que conforman su
+					repertorio musical, sino también por la fuerza de su performance en el escenario. Una artista completa y
+					comprometida con el público, quienes la han llevado a romper records de venta en todos sus conciertos.
+				</p>
+
+				<a href="./indexStream.html">
+					<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>				
+				</a>
+
+
+<!-- 				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button> -->
+			</div>
+		</div>
+
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Eventos Recomendados</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda">
+					<i class="fas fa-angle-left"></i>
+				</button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula" onclick="noDisponible()">
+							<img src="./asset/img/fotoKooza.jpg" alt="">
+						</div>
+						nbsp;
+						<div class="pelicula" onclick="noDisponible()">
+							<img src="./asset/img/fotoNapoleon.jpg" alt="">
+						</div>
+						nbsp;
+						<div class="pelicula">
+							<a href="./indexStream.html"><img src="./asset/img/fotoTrevi.jpg" alt=""></a>
+						</div>
+						
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha">
+					<i class="fas fa-angle-right"></i>
+				</button>
+				
+			</div>
+		</div>
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="./asset/js/mainEnVivo.js"></script>
+</body>
+</html>

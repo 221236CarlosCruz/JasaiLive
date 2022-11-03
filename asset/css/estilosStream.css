@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v13/bH7276GfdCjMjApa_dkG6VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  }
+  
+  A:link,
+  A:visited{text-decoration:none;color:white;}
+  A:hover{text-decoration:none;color:#30b1aa;}
+  *{margin:0;padding:0;}
+  h1{color:orange;font-size:29px;}
+  h2{color:orange;font-size:22px;font-weight:bold;font-family:Oswald,Arial,sans-serif;}
+  h3{color:#ccc;font-size:22px;font-weight:bold;font-family:Oswald,Arial,sans-serif;}
+  h4{float:left;color:orange;text-align:center;}
+  body{background:#000000 url('../img/fondo.jpg') repeat scroll top left;color:#fff;margin:0 auto;font-family:Arial,Tahoma,Verdana,sans-serif;}
+  p{padding:0 0 20px 0;line-height:1.7em;}
+  header{background-color:#30b1aa;box-shadow:0 -1px 2px #111111;color:#fff;display:block;height:104px;position:relative;width:100%;z-index:100;}
+  #Layer3{position:absolute;width:550px;height:70px;z-index:2;left:159px;top:3px;font-size:67px;font-family:'Oswald';font-weight:700;-webkit-text-fill-color:#30b1aa;-webkit-text-stroke:2px #343432;text-shadow:0 2px 3px #fff, 2px 2px 1px #fff, -2px 2px 1px #fff, 2px -2px 1px #fff;}
+  #Layer2{position:absolute;width:130px;height:130px;z-index:2;}
+  .fuente2{font-size:10px;color:#FFFFFF;font-weight:bold;}
+  .container{height:100%;margin:1px auto;width:100%;max-width:790px;}
+  .main{color:#fff;height:100%;width:100%;z-index:100;text-align:center;margin-top:3px;}
+  .contenido{background-color:#212121;border-width:1px;border-style:solid;border-color:#333;box-shadow:0 -1px 2px #111111;color:#fff;margin:0 0 5px 0;padding:2px 7px;height:100%;width:98.4%;z-index:100;float:left;text-align:left;}
+  .title{margin:2px 0 0;text-align:center;height:40px}
+  #embed{text-align:center;}
+  .sharethis-inline-share-buttons{background:none repeat scroll 0 0 #0b4c5f;color:#fff;font-family:"Oswald",Arial,Sans-serif;font-size:12px;padding:5px;text-align:center;}
+  .menu_bar{display:none;}
+  menu{background-color:#CFCFCF;width:100%;margin-top:-1px;height:26px;color:#555555;font-size:12px;font-family:sans-serif;}
+  menu nav{text-align:right;z-index:1000;max-width:1000px;width:100%;margin:1px auto;}
+  menu a:link{color:#000;}
+  menu a:visited{color:#000;}
+  menu a:hover{color:#30b1aa;}
+  menu nav ul{list-style:none;}
+  menu nav ul li{margin-top:2px;display:inline-block;position:relative;}
+  menu nav ul li:hover .children{display:block;}
+  menu nav ul li .children{background:#CFCFCF;text-align:left;position:absolute;display:none;width:150%;z-index:1000;}
+  menu nav ul li .children li{display:block;overflow:hidden;}
+  menu nav ul li .children li a{display:block;}
+  menu nav ul .children li a span{float:left;position:relative;}
+  menu nav ul li a{text-decoration:none;display:inline-block;padding:4px 5px;}
+  menu nav ul li span{margin-right:10px;}
+  menu nav ul li .caret{position:relative;top:3px;margin-left:10px;margin-right:0;}
+  table{width:100%;border-spacing:8px;border-collapse:separate}table th{height:18px;color:#fff;font-size:12px;background:#30b1aa url(/fonts/sort.gif) 6px center no-repeat;cursor:pointer;padding-left:18px}
+  .color{background:#30b1aa}
+  .h{width:9%}.l{width:4%;text-align:center}
+  footer{background-color:#212121;border-width:1px;border-style:solid;border-color:#333;min-height:34px;text-shadow:0 0 2px #000;font-family:'Roboto Condensed', Sans-serif;color:white;height:100%;width:100%;z-index:100;clear:both;text-align:center;}
+  #footer-bar-text{float:left;padding:6px 8px;}
+  #footer-link{float:right;margin:6px 1px;font-family:'Roboto Condensed', Sans-serif;font-weight:bold;font-size:15px;}
+  #footer-link a{color:#fff;text-decoration:none;}
+  #footer-link a:hover{color:gold;}
+  #player{text-align:center;}
+  #player iframe{width:100%;min-width:320px;max-width:730px;height:420px;min-height:220px;}
+  .before{background:url('../img/logoJasaiStream.png') no-repeat;float:left;}
+  @font-face{font-family:'icomoon';src:url('fonts/icomoon.eot?jnsyui');src:url('fonts/icomoon.eot?jnsyui#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?jnsyui') format('truetype'),
+  url('fonts/icomoon.woff?jnsyui') format('woff'),
+  url('fonts/icomoon.svg?jnsyui#icomoon') format('svg');font-weight:normal;font-style:normal;}
+  [class^="icon-"], [class*=" icon-"]{font-family:'icomoon';font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+  .icon-file:before{content:"\e600";}
+  .icon-bbva:before{content:"\e602";}
+  .icon-home:before{content:"\e603";}
+  .icon-book:before{content:"\e605";}
+  .icon-user:before{content:"\e606";}
+  .icon-share2:before{content:"\e608";}
+  .icon-menu:before{content:"\e610";}
+  .icon-open:before{content:"\e930";}
+  .ad{background-position:0 0}.ae{background-position:-18px 0}.arg{background-position:-36px 0}.at{background-position:-54px 0}.au{background-position:-72px 0}.be{background-position:-90px 0}.bg{background-position:-108px 0}.bo{background-position:-126px 0}.by{background-position:-144px 0}.br{background-position:-162px 0}.ca{background-position:-180px 0}.cl{background-position:-198px 0}.cn{background-position:-216px 0}.co{background-position:0 -12px}.cr{background-position:-18px -12px}.cz{background-position:-36px -12px}.de{background-position:-54px -12px}.dk{background-position:-72px -12px}.do{background-position:-90px -12px}.dz{background-position:-108px -12px}.ec{background-position:-126px -12px}.eg{background-position:-144px -12px}.en{background-position:-162px -12px}.es{background-position:-180px -12px}.eu{background-position:-198px -12px}.fi{background-position:-216px -12px}.fr{background-position:0 -24px}.gb{background-position:-18px -24px}.gr{background-position:-36px -24px}.gt{background-position:-54px -24px}.hn{background-position:-72px -24px}.hr{background-position:-90px -24px}.hu{background-position:-108px -24px}.ie{background-position:-126px -24px}.il{background-position:-144px -24px}.in{background-position:-162px -24px}.is{background-position:-180px -24px}.it{background-position:-198px -24px}.jp{background-position:-216px -24px}.kr{background-position:0 -36px}.lu{background-position:-18px -36px}.mx{background-position:-36px -36px}.ni{background-position:-54px -36px}.nl{background-position:-72px -36px}.no{background-position:-90px -36px}.nz{background-position:-108px -36px}.pa{background-position:-126px -36px}.pe{background-position:-144px -36px}.pl{background-position:-162px -36px}.pr{background-position:-180px -36px}.pt{background-position:-198px -36px}.py{background-position:-216px -36px}.qa{background-position:0 -48px}.ro{background-position:-18px -48px}.rs{background-position:-36px -48px}.ru{background-position:-54px -48px}.sa{background-position:-72px -48px}.se{background-position:-90px -48px}.sk{background-position:-108px -48px}.sv{background-position:-126px -48px}.su{background-position:-144px -48px}.th{background-position:-162px -48px}.tj{background-position:-180px -48px}.tr{background-position:-198px -48px}.tt{background-position:-216px -48px}.us{background-position:0 -60px}.uy{background-position:-18px -60px}.ve{background-position:-36px -60px}.uefanl{background-position:-54px -60px}.mun{background-position:-72px -60px}.fifa{background-position:-90px -60px}.oli{background-position:-108px -60px}.toro{background-position:-126px -60px}.ufc{background-position:-144px -60px}.nazcar{background-position:-162px -60px}.motogp{background-position:-180px -60px}.am,.america,.beisbol,.bkb,.boxeo,.caf,.cfl,.ch,.ci,.concacaf,.csuda,.dardos,.el,.eu19,.eu21,.euro,.f1,.golf,.icc,.lib,.mlb,.ms21,.mundial,.nba,.nfl,.nhl,.oro,.otros,.rfef,.rugby,.snooker,.soccer,.suda,.tenis,.uefa,.uefacup,.voley,.wwe{height:17px}.soccer{background-position:0 -83px}.bkb{background-position:-18px -83px}.voley{background-position:-36px -83px}.tenis{background-position:-54px -83px}.golf{background-position:-72px -83px}.snooker{background-position:-90px -83px}.mlb{background-position:-108px -83px}.el{background-position:-126px -83px}.ch{background-position:-144px -83px}.uefa{background-position:-162px -83px}.suda{background-position:-180px -83px}.concacaf{background-position:-198px -83px}.caf{background-position:-216px -83px}.eu21{background-position:0 -100px}.eu19{background-position:-18px -100px}.am{background-position:-36px -100px}.nfl{background-position:-54px -100px}.cfl{background-position:-72px -100px}.rugby{background-position:-90px -100px}.wwe{background-position:-108px -100px}.boxeo{background-position:-126px -100px}.dardos{background-position:-144px -100px}.mundial{background-position:-162px -100px}.euro{background-position:-180px -100px}.america{background-position:-198px -100px}.rfef{background-position:-216px -100px}.otros{background-position:0 -115px}.nba{background-position:-18px -115px}.nhl{background-position:-36px -115px}.ci{background-position:-54px -115px}.csuda{background-position:-72px -115px}.lib{background-position:-90px -115px}.uefacup{background-position:-108px -115px}.ms21{background-position:-126px -115px}.oro{background-position:-144px -115px}.icc{background-position:-162px -115px}.f1{background-position:-180px -115px}.beisbol{background-position:-198px -115px}
+  .logo{width:129px;height:131px;background-position:0 -132px}
+  @media screen and (max-width:767px){body{font-size:12px;font-size:.95rem;font-family:'Roboto Condensed', Sans-serif;}
+  .container,
+  .main,
+  .contenido{width:98.4%;}
+  h1{font-size:18px;font-size:1.4rem}
+  h2{font-size:14px;font-size:1.1rem}
+  
+  .share-buttons-container{font-size:9px;font-size:.7rem}
+  .sidebar,
+  menu,
+  header,
+  footer{display:none;}
+  #player{text-align:center;}
+  #player iframe{width:100%;min-width:320px;max-width:660px;height:300px;min-height:150px;}
+  }

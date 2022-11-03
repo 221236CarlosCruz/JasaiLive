@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/estilosRegistroEvento.css">
+    <title>REGISTRAR EVENTO || JASAI LIVE </title>
+</head>
+<body>
+
+    <section class="generar-evento">
+
+        <div>
+            <form action="" method="POST">
+
+                <h1>Registrar Evento</h1>
+                <br>
+
+                <div>
+                    <label>Nombre del Evento:</label>
+                    <input type="text" class="controls" name="nombreEvento" id="nombreEvento">
+                </div>
+                
+                <div>
+                    <label>Lugar del Evento:</label>
+                    <input type="text" class="controls" name="lugar" id="lugar">
+                </div>
+            
+                <div>
+                    <label>Capacidad Máxima (valor numerico):</label>
+                    <input type="number" class="controls" name="capacidad" id="capacidad">
+                </div>
+
+                <div>
+                    <label>Genero:</label>
+                    <select class="controls" name="genero" id="genero">
+                        <option>Comedia</option>
+                        <option>Festival</option>
+                        <option>Musica</option>
+                        <option>Deporte</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Precio del Boleto (valor numerico):</label>
+                    <input type="number" class="controls" name="precio" id="precio">
+                </div>
+            
+                <div>
+                    <label>Fecha del Evento:</label>
+                    <input type="date" class="controls" name="fecha" id="fecha">
+                </div>
+            
+                <div>
+                    <button type="button" class="botons" name="btnSubmit" id="btnSubmit">Añadir Evento</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <section class="impresion-evento">
+
+        <div>
+            <table id="tablaEventos">
+                <thead>
+                    <tr>
+                        <th>Evento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>Lugar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>Capacidad Maxima &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>Genero &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>Precio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+            
+            <tbody>
+            </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="./asset/js/mainRegistroEvento.js"></script>
+    
+</body>
+</html>
